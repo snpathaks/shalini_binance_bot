@@ -2,7 +2,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-/* Spinner for loading state */
+
 .spinner {
     border: 2px solid rgba(255, 255, 255, 0.3);
     border-top: 2px solid white;
@@ -15,4 +15,5 @@ body {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+
 }
