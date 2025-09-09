@@ -7,9 +7,6 @@ const submitBtn = document.getElementById('submit-btn');
 const btnText = document.getElementById('btn-text');
 const btnSpinner = document.getElementById('btn-spinner');
 
-// --- Event Listeners ---
-
-// Show/hide price input based on order type
 orderTypeSelect.addEventListener('change', () => {
     if (orderTypeSelect.value === 'LIMIT') {
         priceContainer.style.display = 'block';
@@ -20,7 +17,6 @@ orderTypeSelect.addEventListener('change', () => {
     }
 });
 
-// Handle form submission
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -29,7 +25,6 @@ form.addEventListener('submit', async (e) => {
     const formData = new FormData(form);
     const data = Object.fromEntries(formData.entries());
 
-    // --- API Call to Backend ---
     try {
         const response = await fetch('http://127.0.0.1:5000/place_order', {
             method: 'POST',
@@ -54,8 +49,6 @@ form.addEventListener('submit', async (e) => {
     }
 });
 
-// --- UI Helper Functions ---
-
 function setLoading(isLoading) {
     submitBtn.disabled = isLoading;
     btnText.textContent = isLoading ? 'Placing...' : 'Place Order';
@@ -75,4 +68,5 @@ function displaySuccess(data) {
 function displayError(message) {
     resultDiv.classList.add('bg-red-900', 'p-4', 'rounded-b-xl');
     resultDiv.innerHTML = `<h3 class="font-bold text-red-300 mb-2">Error</h3><p class="text-red-200">${message}</p>`;
+
 }
