@@ -1,0 +1,4 @@
+Flask
+Flask-Cors
+python-binance
+python-dotenv

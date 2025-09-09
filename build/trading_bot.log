@@ -1,0 +1,155 @@
+2025-09-09 12:33:39,572 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.209.182.205:5000
+2025-09-09 12:33:39,573 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 12:33:39,575 - INFO -  * Restarting with stat
+2025-09-09 12:33:40,185 - WARNING -  * Debugger is active!
+2025-09-09 12:33:40,187 - INFO -  * Debugger PIN: 766-280-706
+2025-09-09 12:33:50,250 - INFO - 10.209.182.205 - - [09/Sep/2025 12:33:50] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 12:33:50,353 - INFO - 10.209.182.205 - - [09/Sep/2025 12:33:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 12:33:57,341 - INFO - 127.0.0.1 - - [09/Sep/2025 12:33:57] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 12:33:57,509 - INFO - 127.0.0.1 - - [09/Sep/2025 12:33:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 12:49:11,079 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.209.182.205:5000
+2025-09-09 12:49:11,079 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 12:49:11,080 - INFO -  * Restarting with stat
+2025-09-09 12:49:11,673 - WARNING -  * Debugger is active!
+2025-09-09 12:49:11,676 - INFO -  * Debugger PIN: 766-280-706
+2025-09-09 12:49:17,047 - INFO - 127.0.0.1 - - [09/Sep/2025 12:49:17] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 12:49:17,210 - INFO - 127.0.0.1 - - [09/Sep/2025 12:49:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 12:49:33,379 - INFO - 10.209.182.205 - - [09/Sep/2025 12:49:33] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 12:49:33,560 - INFO - 10.209.182.205 - - [09/Sep/2025 12:49:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 12:51:09,512 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.209.182.205:5000
+2025-09-09 12:51:09,512 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 12:51:09,514 - INFO -  * Restarting with stat
+2025-09-09 12:51:10,101 - WARNING -  * Debugger is active!
+2025-09-09 12:51:10,104 - INFO -  * Debugger PIN: 766-280-706
+2025-09-09 12:51:14,206 - INFO - 127.0.0.1 - - [09/Sep/2025 12:51:14] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 12:51:14,371 - INFO - 127.0.0.1 - - [09/Sep/2025 12:51:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 12:52:18,786 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.209.182.205:5000
+2025-09-09 12:52:18,787 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 12:52:18,788 - INFO -  * Restarting with stat
+2025-09-09 12:52:19,428 - WARNING -  * Debugger is active!
+2025-09-09 12:52:19,431 - INFO -  * Debugger PIN: 766-280-706
+2025-09-09 12:52:24,078 - INFO - 127.0.0.1 - - [09/Sep/2025 12:52:24] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 12:52:24,248 - INFO - 127.0.0.1 - - [09/Sep/2025 12:52:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 12:52:41,442 - INFO - 10.209.182.205 - - [09/Sep/2025 12:52:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 12:52:41,649 - INFO - 10.209.182.205 - - [09/Sep/2025 12:52:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 12:53:46,707 - INFO - 127.0.0.1 - - [09/Sep/2025 12:53:46] "OPTIONS /place_order HTTP/1.1" 200 -
+2025-09-09 12:53:46,714 - INFO - Received request on /place_order: {'symbol': 'BTCUSDT', 'order_type': 'LIMIT', 'side': 'SELL', 'quantity': '-2', 'price': '-2'}
+2025-09-09 12:53:48,741 - ERROR - Failed to initialize Binance client: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2025-09-09 12:53:48,746 - INFO - 127.0.0.1 - - [09/Sep/2025 12:53:48] "[31m[1mPOST /place_order HTTP/1.1[0m" 400 -
+2025-09-09 13:05:57,623 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.43:5000
+2025-09-09 13:05:57,623 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 13:05:57,625 - INFO -  * Restarting with stat
+2025-09-09 13:05:58,246 - WARNING -  * Debugger is active!
+2025-09-09 13:05:58,250 - INFO -  * Debugger PIN: 766-280-706
+2025-09-09 13:06:03,823 - INFO - 127.0.0.1 - - [09/Sep/2025 13:06:03] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 13:06:03,889 - INFO - 127.0.0.1 - - [09/Sep/2025 13:06:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 13:06:19,946 - INFO - 192.168.1.43 - - [09/Sep/2025 13:06:19] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 13:06:20,011 - INFO - 192.168.1.43 - - [09/Sep/2025 13:06:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 13:10:41,781 - INFO - 127.0.0.1 - - [09/Sep/2025 13:10:41] "OPTIONS /place_order HTTP/1.1" 200 -
+2025-09-09 13:10:41,784 - INFO - Received request on /place_order: {'symbol': 'BTCUSDT', 'order_type': 'MARKET', 'side': 'BUY', 'quantity': '-12', 'price': ''}
+2025-09-09 13:10:43,207 - ERROR - Failed to initialize Binance client: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2025-09-09 13:10:43,210 - INFO - 127.0.0.1 - - [09/Sep/2025 13:10:43] "[31m[1mPOST /place_order HTTP/1.1[0m" 400 -
+2025-09-09 13:11:33,527 - INFO - 127.0.0.1 - - [09/Sep/2025 13:11:33] "OPTIONS /place_order HTTP/1.1" 200 -
+2025-09-09 13:11:33,530 - INFO - Received request on /place_order: {'symbol': 'BTCUSDT', 'order_type': 'MARKET', 'side': 'BUY', 'quantity': '-2', 'price': ''}
+2025-09-09 13:11:34,791 - ERROR - Failed to initialize Binance client: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2025-09-09 13:11:34,794 - INFO - 127.0.0.1 - - [09/Sep/2025 13:11:34] "[31m[1mPOST /place_order HTTP/1.1[0m" 400 -
+2025-09-09 13:27:40,341 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.43:5000
+2025-09-09 13:27:40,341 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 13:27:40,342 - INFO -  * Restarting with stat
+2025-09-09 13:27:40,942 - WARNING -  * Debugger is active!
+2025-09-09 13:27:40,945 - INFO -  * Debugger PIN: 766-280-706
+2025-09-09 13:27:45,037 - INFO - 127.0.0.1 - - [09/Sep/2025 13:27:45] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 13:27:45,201 - INFO - 127.0.0.1 - - [09/Sep/2025 13:27:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 13:28:45,948 - INFO - 127.0.0.1 - - [09/Sep/2025 13:28:45] "OPTIONS /place_order HTTP/1.1" 200 -
+2025-09-09 13:28:45,950 - INFO - Received request on /place_order: {'symbol': 'BTCUSDT', 'order_type': 'MARKET', 'side': 'BUY', 'quantity': '0.001', 'price': ''}
+2025-09-09 13:28:47,015 - ERROR - Failed to initialize Binance client: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2025-09-09 13:28:47,018 - INFO - 127.0.0.1 - - [09/Sep/2025 13:28:47] "[31m[1mPOST /place_order HTTP/1.1[0m" 400 -
+2025-09-09 13:37:32,769 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.43:5000
+2025-09-09 13:37:32,769 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 13:37:32,771 - INFO -  * Restarting with stat
+2025-09-09 13:37:33,398 - WARNING -  * Debugger is active!
+2025-09-09 13:37:33,400 - INFO -  * Debugger PIN: 766-280-706
+2025-09-09 13:37:37,683 - INFO - 192.168.1.43 - - [09/Sep/2025 13:37:37] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 13:37:37,871 - INFO - 192.168.1.43 - - [09/Sep/2025 13:37:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 13:37:58,178 - INFO - 127.0.0.1 - - [09/Sep/2025 13:37:58] "OPTIONS /place_order HTTP/1.1" 200 -
+2025-09-09 13:37:58,185 - INFO - Received request on /place_order: {'symbol': 'BTCUSDT', 'order_type': 'MARKET', 'side': 'BUY', 'quantity': '0.001', 'price': ''}
+2025-09-09 13:37:59,159 - ERROR - Failed to initialize Binance client: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2025-09-09 13:37:59,162 - INFO - 127.0.0.1 - - [09/Sep/2025 13:37:59] "[31m[1mPOST /place_order HTTP/1.1[0m" 400 -
+2025-09-09 13:44:19,276 - INFO - 127.0.0.1 - - [09/Sep/2025 13:44:19] "OPTIONS /place_order HTTP/1.1" 200 -
+2025-09-09 13:44:19,280 - INFO - Received request on /place_order: {'symbol': 'BTCUSDT', 'order_type': 'MARKET', 'side': 'BUY', 'quantity': '0.001', 'price': ''}
+2025-09-09 13:44:20,396 - ERROR - Failed to initialize Binance client: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2025-09-09 13:44:20,399 - INFO - 127.0.0.1 - - [09/Sep/2025 13:44:20] "[31m[1mPOST /place_order HTTP/1.1[0m" 400 -
+2025-09-09 13:52:43,033 - INFO -  * Detected change in 'E:\\intern\\main.py', reloading
+2025-09-09 13:52:43,157 - INFO -  * Restarting with stat
+2025-09-09 13:52:43,310 - INFO -  * Detected change in 'E:\\intern\\main.py', reloading
+2025-09-09 13:52:43,450 - INFO -  * Restarting with stat
+2025-09-09 13:52:44,238 - WARNING -  * Debugger is active!
+2025-09-09 13:52:44,241 - INFO -  * Debugger PIN: 766-280-706
+2025-09-09 13:52:44,261 - WARNING -  * Debugger is active!
+2025-09-09 13:52:44,264 - INFO -  * Debugger PIN: 766-280-706
+2025-09-09 20:25:26,884 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.43:5000
+2025-09-09 20:25:26,886 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 20:25:26,888 - INFO -  * Restarting with stat
+2025-09-09 20:25:27,757 - WARNING -  * Debugger is active!
+2025-09-09 20:25:27,761 - INFO -  * Debugger PIN: 766-280-706
+2025-09-09 20:25:31,224 - INFO - 127.0.0.1 - - [09/Sep/2025 20:25:31] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 20:25:31,272 - INFO - 127.0.0.1 - - [09/Sep/2025 20:25:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 20:25:43,523 - INFO - 192.168.1.43 - - [09/Sep/2025 20:25:43] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 20:25:43,720 - INFO - 192.168.1.43 - - [09/Sep/2025 20:25:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 20:26:05,811 - INFO - 127.0.0.1 - - [09/Sep/2025 20:26:05] "OPTIONS /place_order HTTP/1.1" 200 -
+2025-09-09 20:26:05,815 - INFO - Received request on /place_order: {'symbol': 'BTCUSDT', 'order_type': 'MARKET', 'side': 'BUY', 'quantity': '0.001', 'price': ''}
+2025-09-09 20:26:05,815 - INFO - Verifying API Key loaded from .env: ee767...804df
+2025-09-09 20:26:07,786 - ERROR - Failed to initialize Binance client: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2025-09-09 20:26:07,823 - INFO - 127.0.0.1 - - [09/Sep/2025 20:26:07] "[31m[1mPOST /place_order HTTP/1.1[0m" 400 -
+2025-09-09 20:28:21,509 - INFO - 127.0.0.1 - - [09/Sep/2025 20:28:21] "OPTIONS /place_order HTTP/1.1" 200 -
+2025-09-09 20:28:21,514 - INFO - Received request on /place_order: {'symbol': 'BTCUSDT', 'order_type': 'MARKET', 'side': 'BUY', 'quantity': '0.001', 'price': ''}
+2025-09-09 20:28:21,515 - INFO - Verifying API Key loaded from .env: ee767...804df
+2025-09-09 20:28:23,467 - ERROR - Failed to initialize Binance client: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2025-09-09 20:28:23,474 - INFO - 127.0.0.1 - - [09/Sep/2025 20:28:23] "[31m[1mPOST /place_order HTTP/1.1[0m" 400 -
+2025-09-09 20:32:22,975 - INFO -  * Detected change in 'E:\\intern\\main.py', reloading
+2025-09-09 20:32:23,131 - INFO -  * Restarting with stat
+2025-09-09 20:32:24,303 - WARNING -  * Debugger is active!
+2025-09-09 20:32:24,308 - INFO -  * Debugger PIN: 766-280-706
+2025-09-09 20:33:10,087 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.43:5000
+2025-09-09 20:33:10,087 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 20:33:10,088 - INFO -  * Restarting with stat
+2025-09-09 20:33:10,855 - WARNING -  * Debugger is active!
+2025-09-09 20:33:10,858 - INFO -  * Debugger PIN: 766-280-706
+2025-09-09 20:33:16,261 - INFO - 127.0.0.1 - - [09/Sep/2025 20:33:16] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 20:33:16,299 - INFO - 127.0.0.1 - - [09/Sep/2025 20:33:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 20:33:31,310 - INFO - 192.168.1.43 - - [09/Sep/2025 20:33:31] "[33mGET / HTTP/1.1[0m" 404 -
+2025-09-09 20:33:31,582 - INFO - 192.168.1.43 - - [09/Sep/2025 20:33:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 20:35:06,147 - INFO - 127.0.0.1 - - [09/Sep/2025 20:35:06] "OPTIONS /place_order HTTP/1.1" 200 -
+2025-09-09 20:35:06,153 - INFO - Received request on /place_order: {'symbol': 'BTCUSDT', 'order_type': 'MARKET', 'side': 'BUY', 'quantity': '0.001', 'price': ''}
+2025-09-09 20:35:06,154 - INFO - Verifying API Key loaded from .env: ee767...804df
+2025-09-09 20:35:08,729 - INFO - Binance Futures Testnet client initialized successfully.
+2025-09-09 20:35:08,729 - INFO - Placing BUY MARKET order for 0.001 BTCUSDT...
+2025-09-09 20:35:08,933 - INFO - Successfully placed order: {'orderId': 5644027447, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJdf1baf747e2c87429dcf57', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757430308837}
+2025-09-09 20:35:08,939 - INFO - 127.0.0.1 - - [09/Sep/2025 20:35:08] "POST /place_order HTTP/1.1" 200 -
