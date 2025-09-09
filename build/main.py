@@ -5,11 +5,7 @@ from flask_cors import CORS
 from binance import Client
 from binance.exceptions import BinanceAPIException, BinanceOrderException
 from dotenv import load_dotenv
-
-# --- Load Environment Variables ---
 load_dotenv()
-
-# --- Basic Configuration ---
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s',
                     handlers=[
@@ -17,11 +13,10 @@ logging.basicConfig(level=logging.INFO,
                         logging.StreamHandler()
                     ])
 
-# --- Flask App Initialization ---
+
 app = Flask(__name__)
 CORS(app)
 
-# --- Trading Bot Logic ---
 class BasicBot:
     def __init__(self, api_key, api_secret, testnet=True):
         if not api_key or not api_secret:
@@ -32,16 +27,15 @@ class BasicBot:
         self.testnet = testnet
         
         try:
-            # --- UPDATED AND MORE ROBUST CONNECTION LOGIC ---
             if self.testnet:
-                # Explicitly set the testnet server URL for all requests
+                
                 self.client = Client(api_key, api_secret, tld='com', testnet=True)
                 self.client.FUTURES_URL = 'https://testnet.binancefuture.com'
-                self.client.API_URL = 'https://testnet.binancefuture.com' # Force API URL for futures testnet
+                self.client.API_URL = 'https://testnet.binancefuture.com' 
             else:
                 self.client = Client(api_key, api_secret)
 
-            # Check connectivity by fetching account info
+            
             self.client.futures_account()
             logging.info("Binance Futures Testnet client initialized successfully.")
             
@@ -79,7 +73,7 @@ class BasicBot:
             logging.error(f"An unexpected error occurred while placing order: {e}")
             raise e
 
-# --- API Endpoint ---
+
 @app.route('/place_order', methods=['POST'])
 def place_order_endpoint():
     data = request.get_json()
@@ -119,4 +113,5 @@ def place_order_endpoint():
         return jsonify({'status': 'error', 'message': 'An unexpected server error occurred.'}), 500
 
 if __name__ == '__main__':
+
     app.run(host='0.0.0.0', port=5000, debug=True)
