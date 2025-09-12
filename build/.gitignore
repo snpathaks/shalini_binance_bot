@@ -1,0 +1,20 @@
+Environment variables
+Never commit your API keys or other secrets!
+.env
+
+Python virtual environment
+venv/
+/venv/
+pycache/
+*.pyc
+
+Log files
+*.log
+trading_bot.log
+
+IDE and editor configuration files
+.idea/
+.vscode/
+
+OS-generated files
+.DS_Store
