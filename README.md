@@ -5,13 +5,13 @@ Built with a **Python Flask** backend and a clean **HTML/JavaScript/Tailwind CSS
 
 ---
 
-## 🚀 Description
+## 🚀 Description :
 
 This project provides a lightweight and intuitive web interface that allows you to connect to the **Binance Futures Testnet** and place both **MARKET** and **LIMIT** orders for **BUY (long)** and **SELL (short)** positions.
 
 ---
 
-## ✨ Features
+## ✨ Features :
 
 - 🌐 **Web-based UI** — Easy-to-use interface for placing trades.  
 - 💱 **Order Types** — Supports both **MARKET** and **LIMIT** orders.  
