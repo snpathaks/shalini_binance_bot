@@ -5,7 +5,7 @@ Built with a **Python Flask** backend and a clean **HTML/JavaScript/Tailwind CSS
 
 ---
 
-## 🚀 Description :
+## 🚀 Description ::
 
 This project provides a lightweight and intuitive web interface that allows you to connect to the **Binance Futures Testnet** and place both **MARKET** and **LIMIT** orders for **BUY (long)** and **SELL (short)** positions.
 
@@ -36,7 +36,7 @@ Follow these steps to get a local copy of the project running for development or
 ## ⚙️ Installation
 
 ### 1. Clone the Repository
-```bash
+```bash:
 git clone https://github.com/snpathaks/shalini_binance_bot.git
 cd shalini_binance_bot
 
